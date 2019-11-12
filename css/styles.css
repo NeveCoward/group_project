@@ -10,17 +10,17 @@ h1 {font-size: 3em;
 h2 {font-size: 2.5em
 }
 
-img:not(.unilogo,#bbcprotest) {
+img:not(.unilogo) {
   display: flex;
-  padding: 20px;
+  padding: 5px;
   margin: 0 auto;
   border-radius: 130px;
 }
 
+
 p {
   justify-content: flex-start;
   text-align: justify;
-}
 }
 
 a {color: rgb(0,0,0);
