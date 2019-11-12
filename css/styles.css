@@ -10,7 +10,7 @@ h1 {font-size: 3em;
 h2 {font-size: 2.5em
 }
 
-img:not(.unilogo) {
+img:not(.unilogo,#bbcprotest) {
   display: flex;
   padding: 20px;
   margin: 0 auto;
