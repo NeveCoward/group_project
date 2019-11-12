@@ -4,22 +4,13 @@ body {
   margin: 0px;
 }
 
-div {
-  min height: 100vh;
-  width: 100vw;
-}
-
-h1, h2 {
-  text-align: center;
-}
-
-h1 {font-size: 5em;
+h1 {font-size: 3em;
 }
 
 h2 {font-size: 2.5em
 }
 
-img {
+img:not(.unilogo) {
   display: flex;
   padding: 20px;
   margin: 0 auto;
@@ -27,59 +18,28 @@ img {
 }
 
 p {
-  margin: 10vh 10vw;
-  font-size: 2em;
-  justify-content: center;
+  justify-content: flex-start;
+  text-align: justify;
+}
 }
 
 a {color: rgb(0,0,0);
 }
 
-ol {
-  list-style: none;
-  padding: 0;
-  margin-bottom: 10%;
-  font-size: 3em;
-  display: flex;
-  justify-content: space-between;
-}
-
-li#first {
-  margin-top: 1%;
-}
-
-li#second {
-  margin-top: 1%;
-}
-
-li#third {
-  margin-top: 1%;
+.fenellaheader {
+  transition: 0.8s ease;
   }
 
-li#fourth {
-  margin-top: 1%;
-}
-
-div.contrast {
-  background-color: rgb(0,0,0);
-  color: rgb(255,255,255);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-ul {
-  list-style: none;
-  display: flex;
-}
-
-li {
-  margin: 20px;
-  transition: 0.6s ease;
+.fenellaheader:hover {
+    font-size: 3em;
+    transition: 0.8s ease;
   }
 
-li:hover {
-  font-size: 1.2em;
-  transition: 0.6s ease;
-}
+.neveheader {
+  transition: 0.8s ease;
+  }
+
+.neveheader:hover {
+    font-size: 3em;
+    transition: 0.8s ease;
+  }
