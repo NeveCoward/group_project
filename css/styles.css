@@ -100,15 +100,10 @@ a {color: rgb(0,0,0);
 .hvrbox .hvrbox-text {
   justify-content: flex-start;
   text-align: justify;
-  font-size: 3em;
-  transition: 0.8s ease;
+  font-size: 6em;
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.facts_row {
-  display: flex;
 }
 
 
