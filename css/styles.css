@@ -122,3 +122,30 @@ a {color: rgb(0,0,0);
     font-size: 3em;
     transition: 0.8s ease;
   }
+
+.newshead1 {
+  transition: 0.8s ease;
+  }
+
+.newshead1:hover {
+  font-size: 2em;
+  transition: 0.8s ease;
+  }
+
+  .newshead2 {
+    transition: 0.8s ease;
+    }
+
+  .newshead2:hover {
+    font-size: 2em;
+    transition: 0.8s ease;
+    }
+
+    .newshead3 {
+      transition: 0.8s ease;
+      }
+
+    .newshead3:hover {
+      font-size: 2em;
+      transition: 0.8s ease;
+      }
