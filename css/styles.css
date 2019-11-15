@@ -63,7 +63,6 @@ a {color: rgb(0,0,0);
 .hvrbox,
 .hvrbox * {
   box-sizing: border-box;
-  flex-grow: 1;
 }
 .hvrbox {
   position: relative;
@@ -97,20 +96,22 @@ a {color: rgb(0,0,0);
 .hvrbox:active .hvrbox_layer_top {
   opacity: 0.6;
 }
-.hvrbox .hvrbox-text {
+.hvrbox {
   justify-content: flex-start;
-  text-align: justify;
-  font-size: 6em;
+  text-align: center;
+  font-size: 1.5em;
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
+  transition: 0.8s ease;
+    }
+.icon {
+  height: 150px;
+  align-items: center;
+  padding-top: 5px;
 }
 
-#wasteicon {
-  width: 100px;
-  align-items: center;
-  padding-top: 20px;
-}
+
 
 /*above is fenella, below is neve ////////////////////////////////////////////////////////////////////////// */
 
