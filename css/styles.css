@@ -149,3 +149,12 @@ a {color: rgb(0,0,0);
       font-size: 2em;
       transition: 0.8s ease;
       }
+
+    #welcome {
+      font-size:4em;
+      padding-top: 70px;
+    }
+
+    #uslogo {
+      padding-top: 40px;
+    }
