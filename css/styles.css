@@ -63,6 +63,7 @@ a {color: rgb(0,0,0);
 .hvrbox,
 .hvrbox * {
   box-sizing: border-box;
+  flex-grow: 1;
 }
 .hvrbox {
   position: relative;
@@ -99,12 +100,16 @@ a {color: rgb(0,0,0);
 .hvrbox .hvrbox-text {
   justify-content: flex-start;
   text-align: justify;
-  font-size: 6em;
+  font-size: 3em;
+  transition: 0.8s ease;
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
+.facts_row {
+  display: flex;
+}
 
 
 /*above is fenella, below is neve ////////////////////////////////////////////////////////////////////////// */
