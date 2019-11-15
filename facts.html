@@ -2,77 +2,106 @@
 <html>
 <head>
   <title>Facts</title>
-  <!link href="bootstrap-4.3.1-dist/css/bootstrap.css" rel="stylesheet">
-  <link href="css/styles.css rel="stylesheet">
+  <link href="bootstrap-4.3.1-dist/css/bootstrap.css" rel="stylesheet">
+  <link href ="css/styles.css" rel="stylesheet">
+</head>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<a class="navbar-brand" href="index.html">Urban Sheffield</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item active">
+      <a class="nav-link" href="facts.html">Facts<span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="news.html">News</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="aboutus.html">About Us</a>
+    </li>
+  </ul>
+</div>
+</nav>
 <body>
 
-<div>
-  <section class="no padding" id="portfolio" style=padding-top:50px">
-  <div class="container-fluid">
-  <div class="row no-gutter"> <!first row>
+<div class="row">
 
     <div class="col-lg-4 col-sm-6">
       <div class="hvrbox">
         <a href="https://www.leeds-live.co.uk/news/leeds-news/only-sheffield-worse-leeds-whole-16196277" target="_blank">
-         <img alt="Pollution" src="pollution.jpg" class="hvrbox_layer_bottom">
+         <img class="img fluid" id="pollutionpic" src="pollution.jpg" class="hvrbox_layer_bottom">
         </a>
         <div class="hvrbox_layer_top">
-        <div class="hvrbox_text">Sheffield has some of the worst air pollution in the country, with 46 hours of “high” and “very high” levels recorded in 2018 - worse than anywhere else in the UK.</div>
+          <h4>Sheffield has some of the worst air pollution in the country, with 46 hours of “high” and “very high” levels recorded in 2018 - worse than anywhere else in the UK.</h4>
         </div>
       </div>
     </div>
 
-    <div class="col-lg-4">
+
+    <div class="col-lg-4 col-sm-6">
       <div class="hvrbox">
         <a href="https://www.sheffield.gov.uk/home/bins-recycling-services/waste-recycling-performance" target="_blank">
-        <img alt="waste" src="waste.jpg" class="hvrbox_layer_bottom">
+          <img alt="waste" src="waste.jpg" class="hvrbox_layer_bottom">
         </a>
-        <div class="hvrbox_layer_top"
-        <div class="hvrbox_text">Sheffield produced over 200,000 of household waste last year, with only a third recycled or composted - way off the EU’s target of 65%. Sheffielders also discarded a whopping 6900 tonnes on the street and in roadside bins in 2018.</div>
+        <div class="hvrbox_layer_top">
+          <p>Sheffield produced over 200,000 of household waste last year, with only a third recycled or composted - way off the EU’s target of 65%. Sheffielders also discarded a whopping 6900 tonnes on the street and in roadside bins in 2018.</p>
         </div>
       </div>
     </div>
 
-    <div class="col-lg-4">
+    <div class="col-lg-4 col-sm-6">
       <div class="hvrbox">
         <a href="https://savesheffieldtrees.org.uk/" target="_blank">
-        <img alt="trees" src="trees.jpg" class="hvrbox_layer_bottom">
+          <img alt="trees" src="trees.jpg" class="hvrbox_layer_bottom">
         </a>
-        <div class="overlay"
-        <div class="text">5500 of Sheffield’s street trees have been chopped down in the last 5 years. Over the next 20 years 12,000 more will go.</div>
+        <div class="hvrbox_layer_top">
+          <p>5500 of Sheffield’s street trees have been chopped down in the last 5 years. Over the next 20 years 12,000 more will go.</p>
+        </div>
       </div>
-      </div>
     </div>
-
-  </div>
-
-  <div class="row"> <!second row>
-
-    <div class="col-sm-4">
-    <img src="green_spaces.jpg" class="image">
-    <div class="overlay"
-      <div class="text">Sheffield’s network of over 50 public parks has been proven to support mental well-being and social inclusion. However, with lower health levels in areas with low quality green space, there is concern that the benefits of green space may not always be available to support the people who need them most.</div>
-    </div>
-    </div>
-
-    <div class="col-sm-4">
-    <img src="sheffield_energy.jpg" class="image">
-    <div class="overlay"
-      <div class="text">Sheffield’s main energy source is biomass. Although a renewable fuel, it is not a clean power source, and  - like fossil fuels - emits carbon dioxide and other greenhouse gases, significantly contributing to Sheffield’s emissions since 2014.</div>
-    </div>
-    </div>
-
-    <div class="col-sm-4">
-    <img src="sheffield_aerial.jpg" class="image">
-    <div class="overlay"
-      <div class="text">Sheffield’s carbon emissions have increased by 9% (2005 - 2016), compared to a 6% decrease in the rest of the UK.</div>
-    </div>
-    </div>
-
-  </div>
-  </div>
 
 </div>
+
+<div class="row">
+
+    <div class="col-lg-4 col-sm-6">
+      <div class="hvrbox">
+        <a href="https://www.sheffield.ac.uk/landscape/news/parks-green-space-invest-wellbeing-iwun-anna-jorgensen-1.837146" target="_blank">
+          <img alt="green_spaces" src="green_spaces.jpg" class="hvrbox_layer_bottom">
+        </a>
+        <div class="hvrbox_layer_top">
+          <p>Sheffield’s network of over 50 public parks has been proven to support mental well-being and social inclusion. However, with lower health levels in areas with low quality green space, there is concern that the benefits of green space may not always be available to support the people who need them most.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-sm-6">
+      <div class="hvrbox">
+        <a href="https://www.thestar.co.uk/news/carbon-emissions-fall-in-sheffield-but-city-has-a-long-way-to-go-269501" target="_blank">
+          <img alt-"sheffield_energy" src="sheffield_energy.jpg" class="hvrbox_layer_bottom">
+        </a>
+        <div class="hvrbox_layer_top">
+          <p>Sheffield’s main energy source is biomass. Although a renewable fuel, it is not a clean power source, and  - like fossil fuels - emits carbon dioxide and other greenhouse gases, significantly contributing to Sheffield’s emissions since 2014.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-sm-6">
+      <div class="hvrbox">
+        <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/719182/Local_Authority_CO2_Emissions_Statistical_Release_2016.pdf" target="_blank">
+          <img alt="sheffield_aerial" src="sheffield_aerial.jpg" class="image">
+        </a>
+        <div class="hvrbox_layer_top">
+          <p>Sheffield’s overall carbon emissions have increased by 9% (2005 - 2016), compared to a 6% decrease in the rest of the UK.</p>
+        </div>
+      </div>
+    </div>
+
+</div>
+
   <script src="http://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
     crossorigin="anonymous"></script>
