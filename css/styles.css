@@ -175,5 +175,41 @@ a {color: rgb(0,0,0);
 
 #facts {
     font-size:3em;
-    padding-top: 80px;
+    padding-top: 50px;
   }
+
+  #climatestrike {
+    display: flex;
+      margin: 0 auto;
+    border-radius: 300px;
+    width:250px;
+      padding: 20px;
+          }
+
+    #mayor {
+        display: flex;
+          margin: 0 auto;
+        border-radius: 300px;
+        width:250px;
+        padding: 20px;
+              }
+
+
+  #mayor {
+    transition: 2.5s ease;
+      }
+
+  #mayor:hover {
+  height: 270px;
+  width:auto;
+  transition: 2.5s ease;
+      }
+
+      #climatestrike {
+        transition: 2.5s ease;
+          }
+
+      #climatestrike:hover {
+      height: 270px;
+      width:auto;
+      transition: 2.5s ease;
