@@ -164,9 +164,16 @@ a {color: rgb(0,0,0);
 }
 
 #news {
-  padding-top: 40px;
+  font-size:3em;
+  padding-top: 80px;
 }
 
 #aboutus {
-  padding-top: 40px;
+  font-size:3em;
+  padding-top: 80px;
 }
+
+#facts {
+    font-size:3em;
+    padding-top: 80px;
+  }
