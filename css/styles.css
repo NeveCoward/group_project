@@ -4,8 +4,7 @@ body {
   margin: 0px;
 }
 
-h1 {font-size: 3em;
-}
+
 
 h2 {font-size: 2.5em
 }
@@ -60,6 +59,58 @@ a {color: rgb(0,0,0);
     font-size: 3em;
     transition: 0.8s ease;
   }
+
+  .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+.hvrbox,
+.hvrbox * {
+  box-sizing: border-box;
+}
+.hvrbox {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+.hvrbox-img {
+  max-width: 100%;
+}
+.hvrbox .hvrbox-hvrbox_layer_bottom {
+  display: block;
+}
+.hvrbox .hvrbox_layer_top {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0,46,0);
+  color: white;
+  padding: 15px;
+  transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox_layer_top,
+.hvrbox:active .hvrbox_layer_top {
+  opacity: 1;
+}
+.hvrbox .hvrbox-text {
+  text-align: center;
+  font-size: 36px;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
 
 /*above is fenella, below is neve ////////////////////////////////////////////////////////////////////////// */
 
