@@ -89,6 +89,7 @@ a {color: rgb(0,0,0);
   background: rgb(0,46,0);
   color: white;
   padding: 25px;
+  vertical-align: center;
   transition: all 0.4s ease-in-out 0s;
 }
 .hvrbox:hover .hvrbox_layer_top,
