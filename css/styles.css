@@ -156,3 +156,18 @@ a {color: rgb(0,0,0);
     #sheffieldmap {
   padding-bottom:60px;
 }
+
+#news {
+  font-size:3em;
+  padding-top: 80px;
+}
+
+#aboutus {
+  font-size:3em;
+  padding-top: 80px;
+}
+
+#facts {
+    font-size:3em;
+    padding-top: 80px;
+  }
