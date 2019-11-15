@@ -60,12 +60,6 @@ a {color: rgb(0,0,0);
     transition: 0.8s ease;
   }
 
-  .img-responsive {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-
 .hvrbox,
 .hvrbox * {
   box-sizing: border-box;
@@ -94,18 +88,18 @@ a {color: rgb(0,0,0);
   height: 100%;
   background: rgb(0,46,0);
   color: white;
-  padding: 15px;
+  padding: 25px;
   transition: all 0.4s ease-in-out 0s;
 }
 .hvrbox:hover .hvrbox_layer_top,
 .hvrbox:active .hvrbox_layer_top {
-  opacity: 1;
+  opacity: 0.6;
 }
 .hvrbox .hvrbox-text {
-  text-align: center;
-  font-size: 36px;
-  display: inline-block;
-  top: 50%;
+  justify-content: flex-start;
+  text-align: justify;
+  font-size: 6em;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
