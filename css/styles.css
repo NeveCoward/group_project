@@ -221,3 +221,13 @@ a {
   width: auto;
   transition: 2.5s ease;
 }
+
+#map {
+  height: 400px;
+  width: 600px;
+}
+
+.mapboxgl-popup {
+  max-width: 400px;
+  font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
