@@ -1,15 +1,15 @@
 body {
-  color: rgb(100,100,100);
+  color: rgb(100, 100, 100);
   font-family: arial;
   margin: 0px;
 }
 
-
-
-h2 {font-size: 2.5em
+h2 {
+  font-size: 2.5em;
 }
 
-h3 {padding-top: 10px;
+h3 {
+  padding-top: 10px;
   padding-bottom: 5px;
 }
 
@@ -46,19 +46,20 @@ h3 {padding-top: 10px;
 p {
   justify-content: flex-start;
   text-align: justify;
-  }
+}
 
-a {color: rgb(0,0,0);
+a {
+  color: rgb(0, 0, 0);
 }
 
 .fenellaheader {
   transition: 0.8s ease;
-  }
+}
 
 .fenellaheader:hover {
-    font-size: 3em;
-    transition: 0.8s ease;
-  }
+  font-size: 3em;
+  transition: 0.8s ease;
+}
 
 .hvrbox,
 .hvrbox * {
@@ -86,7 +87,7 @@ a {color: rgb(0,0,0);
   bottom: 0;
   width: 100%;
   height: 100%;
-  background: rgb(0,46,0);
+  background: rgb(0, 46, 0);
   color: white;
   padding: 25px;
   vertical-align: center;
@@ -104,116 +105,115 @@ a {color: rgb(0,0,0);
   left: 50%;
   transform: translate(-50%, -50%);
   transition: 0.8s ease;
-    }
+}
 .icon {
   height: 150px;
   align-items: center;
   padding-top: 5px;
 }
 
-
-
 /*above is fenella, below is neve ////////////////////////////////////////////////////////////////////////// */
 
 .neveheader {
   transition: 0.8s ease;
-  }
+}
 
 .neveheader:hover {
-    font-size: 3em;
-    transition: 0.8s ease;
-  }
+  font-size: 3em;
+  transition: 0.8s ease;
+}
 
 .newshead1 {
   transition: 0.8s ease;
-  }
+}
 
 .newshead1:hover {
   font-size: 2em;
   transition: 0.8s ease;
-  }
+}
 
-  .newshead2 {
-    transition: 0.8s ease;
-    }
+.newshead2 {
+  transition: 0.8s ease;
+}
 
-  .newshead2:hover {
-    font-size: 2em;
-    transition: 0.8s ease;
-    }
+.newshead2:hover {
+  font-size: 2em;
+  transition: 0.8s ease;
+}
 
-    .newshead3 {
-      transition: 0.8s ease;
-      }
+.newshead3 {
+  transition: 0.8s ease;
+}
 
-    .newshead3:hover {
-      font-size: 2em;
-      transition: 0.8s ease;
-      }
+.newshead3:hover {
+  font-size: 2em;
+  transition: 0.8s ease;
+}
 
-    #welcome {
-      font-size:4em;
-      padding-top: 70px;
-    }
+#welcome {
+  font-size: 4em;
+  padding-top: 70px;
+}
 
-    #uslogo {
-      padding-top: 40px;
-    }
+#welcome > span:first-child {
+  color: #002e00;
+}
 
-    #sheffieldmap {
-  padding-bottom:60px;
+#uslogo {
+  padding-top: 40px;
+}
+
+#sheffieldmap {
+  padding-bottom: 60px;
 }
 
 #news {
-  font-size:3em;
+  font-size: 3em;
   padding-top: 80px;
 }
 
 #aboutus {
-  font-size:3em;
+  font-size: 3em;
   padding-top: 80px;
 }
 
 #facts {
-    font-size:3em;
-    padding-top: 50px;
-  }
+  font-size: 3em;
+  padding-top: 50px;
+}
 
-  #climatestrike {
-    display: flex;
-      margin: 0 auto;
-    border-radius: 300px;
-    width:250px;
-      padding: 20px;
-          }
+#climatestrike {
+  display: flex;
+  margin: 0 auto;
+  border-radius: 300px;
+  width: 250px;
+  padding: 20px;
+}
 
-    #mayor {
-        display: flex;
-          margin: 0 auto;
-        border-radius: 300px;
-        width:250px;
-        padding: 20px;
-              }
+#mayor {
+  display: flex;
+  margin: 0 auto;
+  border-radius: 300px;
+  width: 250px;
+  padding: 20px;
+}
 
-
-  #mayor {
-    transition: 2.5s ease;
-      }
-
-  #mayor:hover {
-  height: 270px;
-  width:auto;
+#mayor {
   transition: 2.5s ease;
-      }
+}
 
-      #climatestrike {
-        transition: 2.5s ease;
-          }
+#mayor:hover {
+  height: 270px;
+  width: auto;
+  transition: 2.5s ease;
+}
 
-      #climatestrike:hover {
-      height: 270px;
-      width:auto;
-      transition: 2.5s ease;
-    }
+#climatestrike {
+  transition: 2.5s ease;
+}
 
-    
+#climatestrike:hover {
+  height: 270px;
+  width: auto;
+  transition: 2.5s ease;
+}
