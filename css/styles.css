@@ -155,8 +155,12 @@ a {
   padding-top: 70px;
 }
 
-#welcome > span:first-child {
+#welcome > span:nth-child(1) {
   color: #002e00;
+}
+
+#welcome > span:nth-child(2) {
+  color: #9fbc82;
 }
 
 #uslogo {
