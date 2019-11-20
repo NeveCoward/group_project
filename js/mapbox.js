@@ -22,7 +22,7 @@ map.on("load", function() {
           {
             type: "Feature",
             properties: {
-              description: "<strong>Walkley/South Road</strong>",
+              description: "<strong>Walkley/South Road</strong><p>Large numbers of idling cars have had a signifcant effect on the air quality in this residential area.</p>",
               icon: "park"
             },
             geometry: {
@@ -34,7 +34,7 @@ map.on("load", function() {
           {
             type: "Feature",
             properties: {
-              description: "<strong>Winster Road</strong>",
+              description: "<strong>Winster Road</strong><p>This area was badly hit by Sheffield's tree-felling program in 2017. Pollution levels have since increased.</p>",
               icon: "park"
             },
             geometry: {
@@ -45,7 +45,7 @@ map.on("load", function() {
           {
             type: "Feature",
             properties: {
-              description: "<strong>Handsworth Road/Sheffield Parkway</strong>",
+              description: "<strong>Handsworth Road/Sheffield Parkway</strong><p>Located close to one of Sheffield's dual carriageways, this is the worst-polluted spot in Darnall ward.</p>",
               icon: "park"
             },
             geometry: {
@@ -56,7 +56,7 @@ map.on("load", function() {
           {
             type: "Feature",
             properties: {
-              description: "<strong>Archer Road/Fraser Road</strong>",
+              description: "<strong>Archer Road/Fraser Road</strong><p>Proximity to two large car parks has caused this spot to have particularly high level of polluting gases</p>",
               icon: "park"
             },
             geometry: {
@@ -67,7 +67,7 @@ map.on("load", function() {
           {
             type: "Feature",
             properties: {
-              description: "<strong>Carter Knowle Road/A621</strong>",
+              description: "<strong>Carter Knowle Road/A621</strong><p>The residential area has high levels of pollution.</p>",
               icon: "park"
             },
             geometry: {
@@ -78,7 +78,7 @@ map.on("load", function() {
           {
             type: "Feature",
             properties: {
-              description: "<strong>Abbeydale Road/Springfield Road</strong>",
+              description: "<strong>Abbeydale Road/Springfield Road</strong><p>Although this spot is next to a park, its proximity to two main roads gives rise to poor air quality.</p>",
               icon: "park"
             },
             geometry: {
@@ -89,7 +89,7 @@ map.on("load", function() {
           {
             type: "Feature",
             properties: {
-              description: "<strong>Crookes Road/Whitham Road</strong>",
+              description: "<strong>Crookes Road/Whitham Road</strong><p>Three busy junctions within this 100m stretch of road have made it one of the most polluted spots in the city.</p>",
               icon: "park"
             },
             geometry: {
@@ -100,7 +100,7 @@ map.on("load", function() {
           {
             type: "Feature",
             properties: {
-              description: "<strong>Sheldon Road</strong>",
+              description: "<strong>Sheldon Road</strong><p>Pupils at the nearby primary school are exposed to harmful levels of smog on a daily basis.</p>",
               icon: "park"
             },
             geometry: {
