@@ -220,5 +220,14 @@ a {
 
 .mapboxgl-popup {
   font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
-  max-height: 800px;
+  max-height: 400px;
+}
+
+#map {
+  height: 800px;
+  width: 1115px;
+}
+
+#socialmedia {
+  padding-left: 30px;
 }

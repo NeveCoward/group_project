@@ -4,8 +4,8 @@ mapboxgl.accessToken =
 var map = new mapboxgl.Map({
   container: "map",
   style: "mapbox://styles/nevecoward/ck36bj2xm1ou41cpfgrtzakot",
-  center: [53.387, -1.461],
-  zoom: 11
+  center: [-1.461, 53.387],
+  zoom: 12
 });
 
 map.on("load", function() {
@@ -27,7 +27,7 @@ map.on("load", function() {
             },
             geometry: {
               type: "Point",
-              coordinates: [53.395342, -1.502994]
+              coordinates: [-1.502994, 53.395342]
             }
           },
           // Feature 2
@@ -39,7 +39,7 @@ map.on("load", function() {
             },
             geometry: {
               type: "Point",
-              coordinates: [53.410159, -1.498995]
+              coordinates: [-1.498995, 53.410159]
             }
           },
           {
@@ -50,7 +50,7 @@ map.on("load", function() {
             },
             geometry: {
               type: "Point",
-              coordinates: [53.378414, -1.397058]
+              coordinates: [-1.397058, 53.378414]
             }
           },
           {
@@ -61,7 +61,7 @@ map.on("load", function() {
             },
             geometry: {
               type: "Point",
-              coordinates: [53.346259, -1.489764]
+              coordinates: [-1.489764, 53.346259]
             }
           },
           {
@@ -72,7 +72,7 @@ map.on("load", function() {
             },
             geometry: {
               type: "Point",
-              coordinates: [53.354341, -1.486119]
+              coordinates: [-1.486119, 53.354341]
             }
           },
           {
@@ -83,7 +83,7 @@ map.on("load", function() {
             },
             geometry: {
               type: "Point",
-              coordinates: [53.345905, -1.496835]
+              coordinates: [-1.496835, 53.345905]
             }
           },
           {
@@ -94,7 +94,7 @@ map.on("load", function() {
             },
             geometry: {
               type: "Point",
-              coordinates: [53.377686, -1.500321]
+              coordinates: [-1.500321, 53.377686]
             }
           },
           {
@@ -105,7 +105,7 @@ map.on("load", function() {
             },
             geometry: {
               type: "Point",
-              coordinates: [53.360054, -1.487111]
+              coordinates: [-1.487111, 53.360054]
             }
           },
           {
@@ -116,7 +116,7 @@ map.on("load", function() {
             },
             geometry: {
               type: "Point",
-              coordinates: [53.378441, -1.462962]
+              coordinates: [-1.462962, 53.378441]
             }
           }
         ]
