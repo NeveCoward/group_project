@@ -167,10 +167,6 @@ a {
   padding-top: 40px;
 }
 
-#sheffieldmap {
-  padding-bottom: 60px;
-}
-
 #news {
   font-size: 3em;
   padding-top: 80px;
@@ -223,11 +219,10 @@ a {
 }
 
 #map {
-  height: 400px;
-  width: 600px;
+  height: 800px;
+  width: 1115px;
 }
 
 .mapboxgl-popup {
-  max-width: 400px;
   font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
 }

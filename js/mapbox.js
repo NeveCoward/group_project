@@ -4,8 +4,8 @@ mapboxgl.accessToken =
 var map = new mapboxgl.Map({
   container: "map",
   style: "mapbox://styles/nevecoward/ck36bj2xm1ou41cpfgrtzakot",
-  center: [-77.04, 38.907],
-  zoom: 11.15
+  center: [53.387, -1.461],
+  zoom: 11
 });
 
 map.on("load", function() {
@@ -22,110 +22,101 @@ map.on("load", function() {
           {
             type: "Feature",
             properties: {
-              description:
-                "<strong>Make it Mount Pleasant</strong><p>Make it Mount Pleasant is a handmade and vintage market and afternoon of live entertainment and kids activities. 12:00-6:00 p.m.</p>",
-              icon: "theatre"
+              description: "<strong>Walkley/South Road</strong>",
+              icon: "marker"
             },
             geometry: {
               type: "Point",
-              coordinates: [-77.038659, 38.931567]
+              coordinates: [53.395342, -1.502994]
             }
           },
           // Feature 2
           {
             type: "Feature",
             properties: {
-              description:
-                "<strong>Mad Men Season Five Finale Watch Party</strong><p>Head to Lounge 201 (201 Massachusetts Avenue NE) Sunday for a Mad Men Season Five Finale Watch Party, complete with 60s costume contest, Mad Men trivia, and retro food and drink. 8:00-11:00 p.m. $10 general admission, $20 admission and two hour open bar.</p>",
-              icon: "theatre"
+              description: "<strong>Winster Road</strong>",
+              icon: "marker"
             },
             geometry: {
               type: "Point",
-              coordinates: [-77.003168, 38.894651]
+              coordinates: [53.410159, -1.498995]
             }
           },
           {
             type: "Feature",
             properties: {
-              description:
-                "<strong>Big Backyard Beach Bash and Wine Fest</strong><p>EatBar (2761 Washington Boulevard Arlington VA) is throwing a Big Backyard Beach Bash and Wine Fest on Saturday, serving up conch fritters, fish tacos and crab sliders, and Red Apron hot dogs. 12:00-3:00 p.m. $25.grill hot dogs.</p>",
-              icon: "bar"
+              description: "<strong>Handsworth Road/Sheffield Parkway</strong>",
+              icon: "marker"
             },
             geometry: {
               type: "Point",
-              coordinates: [-77.090372, 38.881189]
+              coordinates: [53.378414, -1.397058]
             }
           },
           {
             type: "Feature",
             properties: {
-              description:
-                "<strong>Ballston Arts & Crafts Market</strong><p>The Ballston Arts & Crafts Market sets up shop next to the Ballston metro this Saturday for the first of five dates this summer. Nearly 35 artists and crafters will be on hand selling their wares. 10:00-4:00 p.m.</p>",
-              icon: "art-gallery"
+              description: "<strong>Archer Road/Fraser Road</strong>",
+              icon: "marker"
             },
             geometry: {
               type: "Point",
-              coordinates: [-77.111561, 38.882342]
+              coordinates: [53.346259, -1.489764]
             }
           },
           {
             type: "Feature",
             properties: {
-              description:
-                "<strong>Seersucker Bike Ride and Social</strong><p>Feeling dandy? Get fancy, grab your bike, and take part in this year's Seersucker Social bike ride from Dandies and Quaintrelles. After the ride enjoy a lawn party at Hillwood with jazz, cocktails, paper hat-making, and more. 11:00-7:00 p.m.</p>",
-              icon: "bicycle"
+              description: "<strong>Carter Knowle Road/A621</strong>",
+              icon: "marker"
             },
             geometry: {
               type: "Point",
-              coordinates: [-77.052477, 38.943951]
+              coordinates: [53.354341, -1.486119]
             }
           },
           {
             type: "Feature",
             properties: {
-              description:
-                "<strong>Capital Pride Parade</strong><p>The annual Capital Pride Parade makes its way through Dupont this Saturday. 4:30 p.m. Free.</p>",
-              icon: "star"
+              description: "<strong>Abbeydale Road/Springfield Road</strong>",
+              icon: "marker"
             },
             geometry: {
               type: "Point",
-              coordinates: [-77.043444, 38.909664]
+              coordinates: [53.345905, -1.496835]
             }
           },
           {
             type: "Feature",
             properties: {
-              description:
-                "<strong>Muhsinah</strong><p>Jazz-influenced hip hop artist Muhsinah plays the Black Cat (1811 14th Street NW) tonight with Exit Clov and Gods’illa. 9:00 p.m. $12.</p>",
-              icon: "music"
+              description: "<strong>Crookes Road/Whitham Road</strong>",
+              icon: "marker"
             },
             geometry: {
               type: "Point",
-              coordinates: [-77.031706, 38.914581]
+              coordinates: [53.377686, -1.500321]
             }
           },
           {
             type: "Feature",
             properties: {
-              description:
-                "<strong>A Little Night Music</strong><p>The Arlington Players' production of Stephen Sondheim's <em>A Little Night Music</em> comes to the Kogod Cradle at The Mead Center for American Theater (1101 6th Street SW) this weekend and next. 8:00 p.m.</p>",
-              icon: "music"
+              description: "<strong>Sheldon Road</strong>",
+              icon: "marker"
             },
             geometry: {
               type: "Point",
-              coordinates: [-77.020945, 38.878241]
+              coordinates: [53.360054, -1.487111]
             }
           },
           {
             type: "Feature",
             properties: {
-              description:
-                "<strong>Truckeroo</strong><p>Truckeroo brings dozens of food trucks, live music, and games to half and M Street SE (across from Navy Yard Metro Station) today from 11:00 a.m. to 11:00 p.m.</p>",
-              icon: "music"
+              description: "<strong>Train Station</strong>",
+              icon: "marker"
             },
             geometry: {
               type: "Point",
-              coordinates: [-77.007481, 38.876516]
+              coordinates: [53.378441, -1.462962]
             }
           }
         ]
