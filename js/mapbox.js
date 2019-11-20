@@ -5,7 +5,7 @@ var map = new mapboxgl.Map({
   container: "map",
   style: "mapbox://styles/nevecoward/ck36bj2xm1ou41cpfgrtzakot",
   center: [-1.461, 53.387],
-  zoom: 12
+  zoom: 11.75
 });
 
 map.on("load", function() {
@@ -23,7 +23,7 @@ map.on("load", function() {
             type: "Feature",
             properties: {
               description: "<strong>Walkley/South Road</strong>",
-              icon: "marker"
+              icon: "park"
             },
             geometry: {
               type: "Point",
@@ -35,7 +35,7 @@ map.on("load", function() {
             type: "Feature",
             properties: {
               description: "<strong>Winster Road</strong>",
-              icon: "marker"
+              icon: "park"
             },
             geometry: {
               type: "Point",
@@ -46,7 +46,7 @@ map.on("load", function() {
             type: "Feature",
             properties: {
               description: "<strong>Handsworth Road/Sheffield Parkway</strong>",
-              icon: "marker"
+              icon: "park"
             },
             geometry: {
               type: "Point",
@@ -57,7 +57,7 @@ map.on("load", function() {
             type: "Feature",
             properties: {
               description: "<strong>Archer Road/Fraser Road</strong>",
-              icon: "marker"
+              icon: "park"
             },
             geometry: {
               type: "Point",
@@ -68,7 +68,7 @@ map.on("load", function() {
             type: "Feature",
             properties: {
               description: "<strong>Carter Knowle Road/A621</strong>",
-              icon: "marker"
+              icon: "park"
             },
             geometry: {
               type: "Point",
@@ -79,7 +79,7 @@ map.on("load", function() {
             type: "Feature",
             properties: {
               description: "<strong>Abbeydale Road/Springfield Road</strong>",
-              icon: "marker"
+              icon: "park"
             },
             geometry: {
               type: "Point",
@@ -90,7 +90,7 @@ map.on("load", function() {
             type: "Feature",
             properties: {
               description: "<strong>Crookes Road/Whitham Road</strong>",
-              icon: "marker"
+              icon: "park"
             },
             geometry: {
               type: "Point",
@@ -101,7 +101,7 @@ map.on("load", function() {
             type: "Feature",
             properties: {
               description: "<strong>Sheldon Road</strong>",
-              icon: "marker"
+              icon: "park"
             },
             geometry: {
               type: "Point",
@@ -111,8 +111,9 @@ map.on("load", function() {
           {
             type: "Feature",
             properties: {
-              description: "<strong>Train Station</strong>",
-              icon: "marker"
+              description:
+                "<strong>Train Station</strong><p>The station has the worst pollution level in the city, and has been named as one of the most polluted places in Britain.</p>",
+              icon: "park"
             },
             geometry: {
               type: "Point",
