@@ -218,11 +218,7 @@ a {
   transition: 2.5s ease;
 }
 
-#map {
-  height: 800px;
-  width: 1115px;
-}
-
 .mapboxgl-popup {
   font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
+  max-height: 800px;
 }
